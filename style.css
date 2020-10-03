@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe5cb;
+}
+
+.card {
+  margin: auto;
+  border: 7px solid #a09f9f;
+  border-radius: 10px;
+  background-color: #ddfff7;
+  width: 480px;
+  min-width: 467.5px;
+  height: 540px;
+  min-height: 540px;
+  text-align: center;
+  margin-top: 8%;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  transition: 1s ease-in-out;
+}
+
+.card:hover {
+  transform: rotate(3deg);
+}
+
+.card .info {
+  background-color: white;
+  position: absolute;
+  min-width: 467.5px;
+  max-width: 467.5px;
+  margin-top: 185px;
+  width: 467.5px;
+  margin-left: -1px;
+  height: 340px;
+  min-height: 340px;
+  border-radius: 0px 0px 7px 7px;
+  font-family: "Roboto", sans-serif;
+  animation: rotate 3s infinite;
+}
+
+.card .info .place_name {
+  color: #67adff;
+  position: relative;
+  margin-top: 75px;
+  animation: drop 2s infinite;
+}
+
+.card .image .image_of_lighthouse {
+  height: 150px;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -75px;
+}
+
+.card .info .environment {
+  color: green;
+  position: relative;
+  margin-top: 75px;
+  margin-top: 10px;
+}
+
+@keyframes drop {
+  0% {
+    margin-top: 25px;
+  }
+  50% {
+    margin-top: 105px;
+  }
+  100% {
+    margin-top: 25px;
+  }
+}
