@@ -9,7 +9,8 @@ function getLocationAndChangeContent() {
   navigator.geolocation.getCurrentPosition((position) => {
     const lat = position.coords.latitude;
     const lon = position.coords.longitude;
-    const apiUrl = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=50d7db2c304ac0ca996e479a25b35713&units=metric`;
+    const proxy = 'https://cors-anywhere.herokuapp.com/'
+    const apiUrl = `${proxy}http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=50d7db2c304ac0ca996e479a25b35713&units=metric`;
     console.log(apiUrl);
     fetch(apiUrl)
       .then((res) => res.json())
