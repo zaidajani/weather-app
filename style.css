@@ -28,18 +28,18 @@ body {
 }
 
 .card .info {
-  background-color: white;
-  position: absolute;
-  min-width: 467.5px;
-  max-width: 467.5px;
-  margin-top: 185px;
-  width: 467.5px;
-  margin-left: -1px;
-  height: 340px;
-  min-height: 340px;
-  border-radius: 0px 0px 7px 7px;
-  font-family: "Roboto", sans-serif;
-  animation: rotate 3s infinite;
+    background-color: white;
+    position: absolute;
+    min-width: 467.5px;
+    max-width: 467.5px;
+    margin-top: 186.5px;
+    width: 467.5px;
+    margin-left: -0.30px;
+    height: 340px;
+    min-height: 340px;
+    border-radius: 0px 0px 4px 4px;
+    font-family: "Roboto", sans-serif;
+    animation: rotate 3s infinite;
 }
 
 .card .info .place_name {
@@ -50,10 +50,10 @@ body {
 }
 
 .card .image .image_of_lighthouse {
-  height: 150px;
-  position: absolute;
-  margin-top: 35px;
-  margin-left: -75px;
+    height: 150px;
+    position: absolute;
+    margin-top: 37px;
+    margin-left: -75px;
 }
 
 .card .info .environment {
