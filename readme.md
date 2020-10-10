@@ -6,7 +6,7 @@ This is an application which showcases live weather where you are currently base
 
 Open `index.html` or use live server or lite server, or any other serving service to serve the files and view the index.html file, you will see the results.
 
-<strong><a href="https://zaidajani.github.io/weather-app/" target="_blank">Click here</a> to see demo of the app</strong>
+<strong><a href="https://zaidajani.github.io/weather-app/" target="blank">Click here</a> to see demo of the app</strong>
 
 ![screenshot](screenshot.PNG)
 
