@@ -46,7 +46,6 @@ body {
   color: #67adff;
   position: relative;
   margin-top: 75px;
-  animation: drop 2s infinite;
 }
 
 .card .image .image_of_lighthouse {
@@ -61,16 +60,4 @@ body {
   position: relative;
   margin-top: 75px;
   margin-top: 10px;
-}
-
-@keyframes drop {
-  0% {
-    margin-top: 25px;
-  }
-  50% {
-    margin-top: 105px;
-  }
-  100% {
-    margin-top: 25px;
-  }
 }
