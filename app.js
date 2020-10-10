@@ -16,7 +16,7 @@ function getLocationAndChangeContent() {
       .then((res) => res.json())
       .then((data) => {
         place_name.innerText = data.name;
-        temperature.innerText = data.main.temp + "°C";
+        temperature.innerText = Math.round(data.main.temp) + "°C";
         environment.innerText = data.weather[0].main;
         if(data.weather[0].main == 'Rain' || data.weather[0].main == 'Mist' || data.weather[0].main == 'Thunderstorm') {
           document.getElementById("image").src = "undraw_Raining_re_4b55.svg";
