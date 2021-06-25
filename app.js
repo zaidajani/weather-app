@@ -18,11 +18,12 @@ function getLocationAndChangeContent() {
         place_name.innerText = data.name;
         temperature.innerText = Math.round(data.main.temp) + "°C";
         environment.innerText = data.weather[0].main;
-        if(data.weather[0].main == 'Rain' || data.weather[0].main == 'Mist' || data.weather[0].main == 'Thunderstorm') {
+        if(data.weather[0].main == 'Rain' || data.weather[0].main == 'Mist' || data.weather[0].main == 'Thunderstorm' || data.weather[0].main == 'Drizzle') {
           document.getElementById("image").src = "undraw_Raining_re_4b55.svg";
         } else if(data.weather[0].main == 'Clouds' || data.weather[0].main == 'Haze') {
           document.getElementById("image").src = "undraw_Lighthouse_frb8.svg";
-        } else {
+        }
+        else {
           document.getElementById("image").src = "undraw_air_support_wy1q.svg";
         }
       }); 
