@@ -32,4 +32,4 @@ Above given is the example of fetch function, from an api key, to putting the re
 
 hope this helps.
 
-<b>Enjoy your powerfull app</b>
+<b>Enjoy your powerfull App</b>
