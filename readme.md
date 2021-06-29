@@ -1,4 +1,4 @@
-# Weather app
+# Weather App
 
 This is an application which showcases live weather where you are currently based on. The application uses openWeatherMap api to showcase the temperature and the place.
 
